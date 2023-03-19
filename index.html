@@ -15,7 +15,67 @@
   
 </head>
 <body>
+  <!-- for title and description-->
+  <header>
+    <h2 class="title">Simple, traffic-based pricing</h2>
+    
+    <h6 class="description">Sign-up for our 30-day trial. 
+      No credit card required. 
+    </h6>
+  </header>
 
+  <!-- for pricing component container-->
+
+  <main class="main-container">
+
+    <div class="price-container">
+      <p class="viwes">100K PAGEVIEWS</p>
+
+      <input type="range" id="price-range" name="price" min="1" max="5">
+
+      <div class="price-per-month">
+        <h3>$16.00</h3>
+        <p>/ month</p>
+      </div>
+    </div>
+
+    <div class="biling-container">
+
+      <p>Monthly Billing</p>
+
+      <label class="switch-box" for="switch"> 
+        <input type="checkbox" class="switch" id="switch" name="switch">
+        <span class="slider round"></span>
+      </label>
+
+      <p>Yearly Billing </p>
+
+      <span class="discount"> -25%<span class="hidden">discount</span></span>
+
+  </div>
+
+  <hr>
+
+  <div class="benefits">
+    <div class="benefits-type">
+      <img src="./images/icon-check.svg" alt="">
+      <p>Unlimited websites</p>
+    </div>
+
+    <div class="benefits-type">
+      <img src="./images/icon-check.svg" alt="">
+      <p>100% data ownership </p>
+    </div>
+
+    <div class="benefits-type">
+      <img src="./images/icon-check.svg" alt="">
+      <p>Email reports</p>
+    </div>
+  </div>
+
+  <button>Start my trial</button>
+
+  </main>
 
 
   <!-- Simple, traffic-based pricing
