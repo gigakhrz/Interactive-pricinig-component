@@ -10,7 +10,7 @@ const switchInput = document.getElementById('switch');
 rangeInput.oninput = () => {
     const value = (rangeInput.value-rangeInput.min)/(rangeInput.max-rangeInput.min)*100;
     console.log(value);
-    rangeInput.style.background = 'linear-gradient(to right, #A4F3EB 0%, #ECF0FB ' + value + '%, #fff ' + value + '%, white 100%)';
+    rangeInput.style.background = 'linear-gradient(to right, #A4F3EB 0%' + value + '%,  ' + value + '%, #ECF0FB 50%)';
 }
 
 
